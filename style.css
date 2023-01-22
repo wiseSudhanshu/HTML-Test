@@ -219,3 +219,45 @@ nav {
 .feature p {
     padding-top: 0.6em;
 }
+
+.more-features {
+    margin-top: 9%;
+}
+
+@media (min-width: 1055px) {
+    .feature-with-chart:nth-child(2) {
+        flex-direction: row-reverse;
+    }
+}
+
+.feature-with-chart {
+    padding: 0 8% 4% 10%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.feature-with-chart .chart {
+    flex: 0 0 50%;
+}
+
+.feature-with-chart .feature {
+    text-align: start;
+    display: flex;
+    flex-direction: column;
+}
+
+.feature-with-chart .feature h1 {
+    color: #172755;
+    font-weight: 700;
+    font-size: 40px;
+}
+
+.feature-with-chart .feature p {
+    color: #8794BA;
+}
+
+.feature-with-chart .chart img {
+    width: 100%;
+    box-shadow: 2px solid black;
+}

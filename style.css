@@ -132,3 +132,54 @@ nav {
     margin-right: 0;
     font-size: 14px;
 }
+
+.hero {
+    display: flex;
+    justify-content: space-between;
+}
+
+.description {
+    padding: 6% 2% 0 9%;
+    display: flex;
+    flex-direction: column;
+    flex: 0 0 40%;
+}
+
+.description h1 {
+    font-weight: 700;
+    color: #FFFFFF;
+    line-height: 120%;
+    margin-bottom: 1rem;
+}
+
+.description p {
+    font-weight: 400;
+    color: #8794BA;
+    line-height: 150%;
+}
+
+.free {
+    margin-top: 2em;
+    background-color: #EF2A82;
+    padding: 1em 4em;
+    border-radius: 4em;
+    border: none;
+    font-size: 15px;
+    color: #FFFFFF;
+}
+
+.images {
+    display: flex;
+    align-items: center;
+    overflow: hidden;
+}
+
+.images .pic1 {
+    z-index: 2;
+}
+
+.images #img2 {
+    position: relative;
+    left: -37%;
+    box-shadow: 1em black;
+}

@@ -449,3 +449,117 @@ nav {
     color: #8794BA;
     margin: 0 0.5em;
 }
+
+/* ------------Responsive Stuff------------ */
+
+@media(max-width: 1055px){
+    nav {
+        justify-content: space-around;
+        box-shadow: 0 0 2px 0 black;
+    }
+    .nav-toggler{
+    	display: inline-flex;
+        margin-left: 1em;
+    }
+    .nav-elements {
+        display: none;
+    }
+    .nav-elements2{
+        text-align: center;
+        display: block;
+    	position: absolute;
+    	left:0;
+    	top: 5em;
+    	width: 100%;
+    	background-color: var(--color-1);
+    	border-top: 1px solid rgba(255, 255, 255, 0.4);
+    	opacity: 0;
+    	visibility: hidden;
+        transition: all 0.5s ease;
+    }
+    .nav-elements2 ul li {
+        display: block;
+        margin: 1em 0;
+    }
+    #nav-check:checked ~ .nav-elements2 {
+       opacity: 1;
+       visibility: visible;
+    }
+    #nav-check:focus ~ .nav-toggler{
+    	box-shadow: 0 0 2px #8794BA;
+    }
+    #nav-check:checked ~ .nav-toggler span{
+    	background-color: transparent;
+    }
+    #nav-check:checked ~ .nav-toggler span::before{
+    	top:0;
+    	transform: rotate(45deg);
+    }
+    #nav-check:checked ~ .nav-toggler span::after{
+    	top:0;
+    	transform: rotate(-45deg);
+    }
+    #sign-up {
+        display: none;
+    }
+    .hero {
+        display: flex;
+        flex-direction: column-reverse;
+        align-items: center;
+        overflow: visible;
+        padding-bottom: 25em;
+    }
+    .description {
+        width: 80%;
+    }
+    .images .pic1 {
+        overflow: visible;
+        display: none;
+    }
+    .images .pic2 {
+        margin-top: 2em;
+        padding-left: 43%;
+        overflow: visible;
+        display: flex;
+    }
+    .images #img2 {
+        width: 100%;
+    }
+    .features {
+        display: flex;
+        flex-direction: column;
+    }
+    #feature-heading, #feature-description {
+        text-align: left;
+    }
+    .feature {
+        display: flex;
+        align-items: center;
+    }
+    .feature-credentials {
+        margin-left: 2em;
+        text-align: left;
+        flex-wrap: wrap;
+    }
+    .feature-with-chart, .feature-with-chart:nth-child(2) {
+        flex-direction: column;
+    }
+    .pricing h3, .pricing p {
+        text-align: left;
+    }
+}
+
+@media (max-width: 1250px) {
+    .card, .card-middle {
+        margin: 0 1em;
+    }
+}
+
+@media (max-width: 631px) {
+    .hero {
+        padding-bottom: 15em;
+    }
+    header {
+        background: linear-gradient(171deg, #172755 88%, #EF2A82 88%, #EF2A82 90%, #f2f2f2 90%, #f2f2f2);
+    }
+} 

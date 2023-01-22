@@ -26,9 +26,10 @@
 
 ---------------Lighthouse Report - Mobile--------------
 
-![Lighthouse Report - Mobile](https://user-images.githubusercontent.com/122075425/213932068-aa4ffcb1-5254-41fc-bc15-9403fee0b692.png)
+![Lighthouse Report - Mobile](https://user-images.githubusercontent.com/122075425/213932394-d7886c45-207a-4e31-8685-9f2cb39c1b07.png)
 
 
 ---------------Lighthouse Report - Desktop---------------
 
-![Lighthouse Report - Desktop](https://user-images.githubusercontent.com/122075425/213932121-eebd8773-389a-40b3-87d7-1213280463ed.png)
+![Lighthouse Report - Desktop](https://user-images.githubusercontent.com/122075425/213932438-77ffd514-d169-43f9-9bb8-6873b32ffec8.png)
+

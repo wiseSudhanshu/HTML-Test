@@ -21,8 +21,7 @@
 -------------Performance Insights-----------------
 
 
-![Performance Insights](https://user-images.githubusercontent.com/122075425/213969021-55895311-76ff-4535-ad60-f04be97caed4.png)
-
+![Performance Insights](https://user-images.githubusercontent.com/122075425/213969347-9151736e-682d-41c5-a7e6-03a4bceaaa89.png)
 
 
 ---------------Lighthouse Report - Mobile--------------

@@ -20,7 +20,8 @@
 
 -------------Performance Insights-----------------
 
-![Performance Insights](https://user-images.githubusercontent.com/122075425/213931729-37f8319b-08a2-4639-83ab-6ea17048e732.png)
+
+![Performance Insights](https://user-images.githubusercontent.com/122075425/213969021-55895311-76ff-4535-ad60-f04be97caed4.png)
 
 
 

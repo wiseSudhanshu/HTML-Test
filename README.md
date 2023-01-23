@@ -2,7 +2,8 @@
 
 ------------Virtual Host------------
 
-![Virtual Host](https://user-images.githubusercontent.com/122075425/213931058-cfd6a84a-7a16-4391-8098-8895dc09f663.png)
+
+![Virtual Host](https://user-images.githubusercontent.com/122075425/213969445-422daf68-024d-467b-8c43-101ef6ddcf6c.png)
 
 
 
